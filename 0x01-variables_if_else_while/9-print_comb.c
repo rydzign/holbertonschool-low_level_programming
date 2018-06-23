@@ -8,20 +8,17 @@
  */
 
 int main(void)
-int ch;
-int v;
-int s;
-for (ch = '0' ; ch <= '9'; ch++)
 {
-putchar(ch);
-if (ch != '9')
+int i;
+for (i = '0'; i <= '9'; i++)
 {
-v = ',';
-s = ' ';
-putchar(v);
-putchar(s);
+putchar(i);
+if (i < '9')
+{
+putchar(',');
+putchar(' ');
 }
-{
+}
 putchar('\n');
 return (0);
 }
