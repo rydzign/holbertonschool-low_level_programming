@@ -7,7 +7,7 @@
  * Return: Always 0 (Success)
  */
 
-in main(void)
+int main(void)
 {
 char ch = '0';
 int count = 1;
