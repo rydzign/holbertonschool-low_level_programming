@@ -9,12 +9,11 @@
 int main(void)
 {
 char ch;
-for (ch = 'a' ; ch <= 'z'; ch++)
-if (ch == 'e' || ch == 'q')
-{ ; }
-}
-else
+for (ch = 'a'; ch <= 'z'; ch++)
 {
+if (ch == 'e' || ch == 'q')
+continue;
+else
 putchar(ch);
 }
 putchar('\n');
