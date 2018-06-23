@@ -9,12 +9,17 @@
 
 in main(void)
 {
-char ch;
-for (ch = '0' ; ch <= '9'; ch++)
+char ch = '0';
+int count = 1;
+while (count < 17)
+{
+if ((ch >= '0' && ch <= '9') || (ch = 'a' && ch <= 'f'))
+{
 putchar(ch);
-ch = 'a';
-for (ch = 'a'; ch <= 'f'; ch++)
-putchar(ch);
+count++;
+}
+ch++;
+}
 putchar('\n');
 return (0);
 }
