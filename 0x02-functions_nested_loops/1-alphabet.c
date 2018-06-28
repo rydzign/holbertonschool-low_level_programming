@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * program to print Holberton
+ * program to print alphabet
  * Return: Always 0 (Success)
  */
 
