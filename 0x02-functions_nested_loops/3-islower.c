@@ -1,11 +1,10 @@
 #include "holberton.h"
 
 /**
- * main - Entry point
- * @c: string to run
  * _islower - function that checks for lowercase character.
  * Return: 1 if c is lowercase
  * otherwise Return 0
+ * @c: int to run string
  */
 
 int _islower(int c)
