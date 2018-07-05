@@ -1,16 +1,21 @@
 #include "holberton.h"
-#include <stdio.h>
 
 /**
  * main - Entry point
- * program that prints Holberton
- * Return: Always 0 (Success)
+ * Return: 0
  */
 
-int main()
+int main(void)
 {
-	char c;
-	char c[10] = "Holberton";
+	_putchar('H');
+	_putchar('o');
+	_putchar('l');
+	_putchar('b');
+	_putchar('e');
+	_putchar('r');
+	_putchar('t');
+	_putchar('o');
+	_putchar('n');
 	_putchar('\n');
 	return (0);
 }
