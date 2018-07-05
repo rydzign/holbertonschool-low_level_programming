@@ -1,9 +1,8 @@
 #include "holberton.h"
 
 /**
- * main - Entry point
  * _isalpha - function that checks for lowercase character.
- * @c: string to print
+ * @c: int to print string
  * Return: 1 if c if letter
  * otherwise Return 0
  */
