@@ -1,18 +1,13 @@
 #include "holberton.h"
 
 /**
- * main - Entry point
- * program that prints Holberton
- * Return: Always 0 (Success)
+ * add - adds integers a and b
+ * @a: First integer
+ * @b: Second integer
+ * Return: the sum of a and b
  */
 
-int add(void)
+int add(int a, int b)
 {
-  int i;
-  for (i = 0; i < 10; i++)
-  {
-    char [i] = "Holberton";
-  }
-  _putchar('\n');
-  return (0);
+	return (a + b);
 }
