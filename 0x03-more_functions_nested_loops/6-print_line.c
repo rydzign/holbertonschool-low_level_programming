@@ -1,17 +1,16 @@
-int
-if (n > 0)
-{	line = 0;
-while ( line <= n)
-{ -putchar('_');
-	line++;
+#include "holberton.h"
+
+/**
+ * print_line - prints line length n
+ * @n: length of line
+ * Return: void
+ */
+
+void print_line(int n)
+{
+	int i;
+
+	for (i = 0 ; i < n ; i++)
+		_putchar('_');
+	_putchar('\n');
 }
-{else
-		_putchar('\n');
-
-
-	int line=0;
-	if(n >=0)
-		while (line <= n)
-			_putchar ('_')
-				line++;
-	_putchar ('\n')
