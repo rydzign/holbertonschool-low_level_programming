@@ -9,3 +9,5 @@ void puts_half(char *str);
 void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
 int _putchar(char c);
+int _atoi(char *s);
+void modif_my_char_var(char *cc, char ccc);
