@@ -1,6 +1,4 @@
-#define SUM(x, y) (x + y)
-
-int main()
-{
-	int n = SUM(x, y);
-}
+#ifndef SUM_H
+#define SUM_H
+#define SUM(x, y) ((x) + (y))
+#endif /* SUM_H */

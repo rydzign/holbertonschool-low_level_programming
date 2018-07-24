@@ -1,12 +1,4 @@
-#define ABS(x)
-#include "holberton.h"
-
-int main()
-{
-	int n = ABS(x);
-	int x = -1;
-	if( n < 0 )
-	{
-		( n * x );
-	}
-}
+#ifndef FUNCTION_LIKE_MACRO_H
+#define FUNCTION_LIKE_MACRO_H
+#define ABS(x) ((x) < (0) ? (-x) : (x))
+#endif */ FUNCTION_LIKE_MACRO_H */
