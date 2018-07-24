@@ -1,6 +1,4 @@
+#ifndef 0_OBJECT_LIKE_MACRO_H
+#define 0_OBJECT_LIKE_MACRO_H
 #define SIZE 1024
-
-int main()
-{
-	int n = SIZE(1024);
-}
+#endif // #ifndef 0_OBJECT_LIKE_MACRO_H
