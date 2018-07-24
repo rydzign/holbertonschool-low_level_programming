@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "holberton.h"
 
 /**
  * main - prints the filename
@@ -8,6 +7,6 @@
 
 int main(void)
 {
-	_putchar(__FILE__);
-	_putchar("/n");
+	printf("%s\n", __FILE__);
+	return 0;
 }
