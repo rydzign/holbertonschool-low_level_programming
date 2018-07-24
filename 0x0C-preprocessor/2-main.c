@@ -1,8 +1,12 @@
 #include <stdio.h>
 #include "holberton.h"
-#define __FILE__
 
-int main()
+/**
+ * main - prints the filename
+ * Return 0
+ */
+
+int main(void)
 {
 	_putchar(__FILE__);
 	_putchar("/n");
